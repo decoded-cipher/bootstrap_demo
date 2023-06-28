@@ -111,3 +111,7 @@ h3 {
     height: 100px;
     margin: 1rem;
 }
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
