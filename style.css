@@ -12,10 +12,10 @@ h3 {
     font-size: 40px;
 }
 
-p {
+/* p {
     font-weight: 300;
     font-size: 20px;
-}
+} */
 
 .home {
     height: 100vh;
@@ -24,7 +24,7 @@ p {
 
 .home-text {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 .about img {
@@ -38,15 +38,7 @@ p {
     float: right;
     font-size: 18px;
     text-align: left;
-}
-
-.team img{
-    width: 100%;
-    height: auto;
-}
-
-.team p {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .gallery img {
@@ -89,6 +81,33 @@ p {
     margin-right: 20px;
 }
 
+.float-right {
+    display: contents;
+}
+
 .row {
     align-items: center;
+}
+
+.card {
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-card {
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+.card-body {
+    line-height: 0px;
+    text-align: left;
+}
+
+.card-img-top {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
 }
