@@ -29,17 +29,19 @@ p {
 
 .about img {
     float: left;
-    width: 600px;
+    /* width: 600px; */
+    width: 100%;
     height: auto;
 }
 
 .about-text {
     float: right;
     font-size: 18px;
+    text-align: left;
 }
 
 .team img{
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 
@@ -48,7 +50,7 @@ p {
 }
 
 .gallery img {
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 
@@ -69,11 +71,12 @@ p {
 }
 
 .contact button {
-    width: 20%;
+    width: 300px;
     padding: 8px;
     margin: 10px;
     font-weight: 400;
     font-size: 15px;
+    border: 1px solid black;
 }
 
 .footer {
@@ -84,4 +87,8 @@ p {
     font-size: 25px;
     padding-right: 20px;
     margin-right: 20px;
+}
+
+.row {
+    align-items: center;
 }
